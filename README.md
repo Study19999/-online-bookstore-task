@@ -68,6 +68,7 @@ This is a simple online bookstore application built with Spring Boot and Hiberna
 ### Create Book:
 ```bash
 curl -X POST -H "Content-Type: application/json" -d '{"title":"The Great Gatsby","authorId":1,"genreId":1,"price":20.0,"quantity":50}' http://localhost:8080/api/books
+```
 
 ### Short feedback:
 
